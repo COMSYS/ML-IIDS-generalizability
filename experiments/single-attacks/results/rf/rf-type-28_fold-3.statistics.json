@@ -1,0 +1,233 @@
+{
+    "TP": 11033,
+    "TN": 42839,
+    "FP": 1,
+    "FN": 47563,
+    "accuracy": 0.5310934973776569,
+    "precision": 0.9999093710349828,
+    "recall": 0.18828930302409722,
+    "attack_types": {
+        "0": {
+            "labelled_normal": 42839,
+            "labelled_malicious": 1,
+            "recall": 0.9999766573295985
+        },
+        "1": {
+            "labelled_normal": 1792,
+            "labelled_malicious": 0,
+            "recall": 0.0
+        },
+        "2": {
+            "labelled_normal": 1460,
+            "labelled_malicious": 0,
+            "recall": 0.0
+        },
+        "3": {
+            "labelled_normal": 1700,
+            "labelled_malicious": 0,
+            "recall": 0.0
+        },
+        "4": {
+            "labelled_normal": 1932,
+            "labelled_malicious": 0,
+            "recall": 0.0
+        },
+        "5": {
+            "labelled_normal": 1416,
+            "labelled_malicious": 0,
+            "recall": 0.0
+        },
+        "6": {
+            "labelled_normal": 2026,
+            "labelled_malicious": 0,
+            "recall": 0.0
+        },
+        "7": {
+            "labelled_normal": 1512,
+            "labelled_malicious": 0,
+            "recall": 0.0
+        },
+        "8": {
+            "labelled_normal": 1798,
+            "labelled_malicious": 0,
+            "recall": 0.0
+        },
+        "9": {
+            "labelled_normal": 1396,
+            "labelled_malicious": 0,
+            "recall": 0.0
+        },
+        "10": {
+            "labelled_normal": 1474,
+            "labelled_malicious": 0,
+            "recall": 0.0
+        },
+        "11": {
+            "labelled_normal": 1834,
+            "labelled_malicious": 0,
+            "recall": 0.0
+        },
+        "12": {
+            "labelled_normal": 2072,
+            "labelled_malicious": 0,
+            "recall": 0.0
+        },
+        "13": {
+            "labelled_normal": 1594,
+            "labelled_malicious": 0,
+            "recall": 0.0
+        },
+        "14": {
+            "labelled_normal": 1676,
+            "labelled_malicious": 0,
+            "recall": 0.0
+        },
+        "15": {
+            "labelled_normal": 1558,
+            "labelled_malicious": 0,
+            "recall": 0.0
+        },
+        "16": {
+            "labelled_normal": 1658,
+            "labelled_malicious": 0,
+            "recall": 0.0
+        },
+        "17": {
+            "labelled_normal": 1414,
+            "labelled_malicious": 0,
+            "recall": 0.0
+        },
+        "18": {
+            "labelled_normal": 2176,
+            "labelled_malicious": 0,
+            "recall": 0.0
+        },
+        "19": {
+            "labelled_normal": 1634,
+            "labelled_malicious": 0,
+            "recall": 0.0
+        },
+        "20": {
+            "labelled_normal": 666,
+            "labelled_malicious": 0,
+            "recall": 0.0
+        },
+        "21": {
+            "labelled_normal": 1722,
+            "labelled_malicious": 0,
+            "recall": 0.0
+        },
+        "22": {
+            "labelled_normal": 1542,
+            "labelled_malicious": 0,
+            "recall": 0.0
+        },
+        "23": {
+            "labelled_normal": 2048,
+            "labelled_malicious": 0,
+            "recall": 0.0
+        },
+        "24": {
+            "labelled_normal": 1160,
+            "labelled_malicious": 0,
+            "recall": 0.0
+        },
+        "25": {
+            "labelled_normal": 149,
+            "labelled_malicious": 1323,
+            "recall": 0.8987771739130435
+        },
+        "26": {
+            "labelled_normal": 30,
+            "labelled_malicious": 1778,
+            "recall": 0.9834070796460177
+        },
+        "27": {
+            "labelled_normal": 2070,
+            "labelled_malicious": 9,
+            "recall": 0.004329004329004329
+        },
+        "28": {
+            "labelled_normal": 35,
+            "labelled_malicious": 371,
+            "recall": 0.9137931034482759
+        },
+        "29": {
+            "labelled_normal": 40,
+            "labelled_malicious": 1816,
+            "recall": 0.978448275862069
+        },
+        "30": {
+            "labelled_normal": 2041,
+            "labelled_malicious": 79,
+            "recall": 0.037264150943396225
+        },
+        "31": {
+            "labelled_normal": 0,
+            "labelled_malicious": 1906,
+            "recall": 1.0
+        },
+        "32": {
+            "labelled_normal": 0,
+            "labelled_malicious": 1871,
+            "recall": 1.0
+        },
+        "33": {
+            "labelled_normal": 840,
+            "labelled_malicious": 764,
+            "recall": 0.4763092269326683
+        },
+        "34": {
+            "labelled_normal": 996,
+            "labelled_malicious": 1014,
+            "recall": 0.5044776119402985
+        },
+        "35": {
+            "labelled_normal": 2102,
+            "labelled_malicious": 102,
+            "recall": 0.04627949183303085
+        }
+    },
+    "attack_categories": {
+        "0": {
+            "labelled_normal": 42839,
+            "labelled_malicious": 1,
+            "recall": 0.9999766573295985
+        },
+        "1": {
+            "labelled_normal": 2081,
+            "labelled_malicious": 5672,
+            "recall": 0.7315877724751709
+        },
+        "2": {
+            "labelled_normal": 6222,
+            "labelled_malicious": 5361,
+            "recall": 0.4628334628334628
+        },
+        "3": {
+            "labelled_normal": 7900,
+            "labelled_malicious": 0,
+            "recall": 0.0
+        },
+        "4": {
+            "labelled_normal": 20412,
+            "labelled_malicious": 0,
+            "recall": 0.0
+        },
+        "5": {
+            "labelled_normal": 4898,
+            "labelled_malicious": 0,
+            "recall": 0.0
+        },
+        "6": {
+            "labelled_normal": 2176,
+            "labelled_malicious": 0,
+            "recall": 0.0
+        },
+        "7": {
+            "labelled_normal": 3874,
+            "labelled_malicious": 0,
+            "recall": 0.0
+        }
+    }
+}

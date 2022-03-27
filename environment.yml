@@ -1,0 +1,9 @@
+name: ml-and-ids
+dependencies:
+  - pip
+  - matplotlib=3
+  - python=3.8
+  - tabulate=0.8
+  - pip:
+      - git+https://github.com/RhysU/ar.git
+      - git+https://github.com/fkie-cad/ipal_ids_framework.git@1ddf2d4e93ed6d6938df83fff8b8132cfc36b58f

@@ -1,0 +1,91 @@
+cff-version: 1.2.0
+title: >-
+  A False Sense of Security? Revisiting the State of
+  Machine Learning-Based Industrial Intrusion
+  Detection
+message: Please cite this software using these metadata.
+type: software
+authors:
+  - given-names: Dominik
+    family-names: Kus
+    email: kus@comsys.rwth-aachen.de
+    affiliation: >-
+      Communication and Distributed Systems, RWTH
+      Aachen University, Germany
+    orcid: "https://orcid.org/0000-0002-9375-9643"
+  - given-names: Eric
+    family-names: Wagner
+    email: eric.wagner@fkie.fraunhofer.de
+    affiliation: >-
+      Cyber Analysis & Defense, Fraunhofer FKIE,
+      Germany
+    orcid: "https://orcid.org/0000-0003-3211-1015"
+  - given-names: Jan
+    family-names: Pennekamp
+    email: pennekamp@comsys.rwth-aachen.de
+    orcid: "https://orcid.org/0000-0003-0398-6904"
+    affiliation: >-
+      Communication and Distributed Systems, RWTH
+      Aachen University, Germany
+  - given-names: Konrad
+    family-names: Wolsing
+    email: konrad.wolsing@fkie.fraunhofer.de
+    affiliation: >-
+      Cyber Analysis & Defense, Fraunhofer FKIE,
+      Germany
+    orcid: "https://orcid.org/0000-0002-7571-0555"
+  - given-names: Ina Berenice
+    family-names: Fink
+    email: fink@comsys.rwth-aachen.de
+    affiliation: >-
+      Communication and Distributed Systems, RWTH
+      Aachen University, Germany
+    orcid: "https://orcid.org/0000-0002-9146-215X"
+  - given-names: Markus
+    family-names: Dahlmanns
+    email: dahlmanns@comsys.rwth-aachen.de
+    affiliation: >-
+      Communication and Distributed Systems, RWTH
+      Aachen University, Germany
+    orcid: "https://orcid.org/0000-0002-9733-540X"
+  - given-names: Klaus
+    family-names: Wehrle
+    email: wehrle@comsys.rwth-aachen.de
+    affiliation: >-
+      Communication and Distributed Systems, RWTH
+      Aachen University, Germany
+    orcid: "https://orcid.org/0000-0001-7252-4186"
+identifiers:
+  - type: doi
+    value: 10.1145/3494107.3522773
+repository-code: "https://github.com/COMSYS/ML-IIDS-generalizability"
+abstract: >-
+  Anomaly-based intrusion detection promises to
+  detect novel or unknown attacks on industrial
+  control systems by modeling expected system
+  behavior and raising corresponding alarms for any
+  deviations. As manually creating these behavioral
+  models is tedious and error-prone, research focuses
+  on machine learning to train them automatically,
+  achieving detection rates upwards of 99 %. However,
+  these approaches are typically trained not only on
+  benign traffic but also on attacks and then
+  evaluated against the same type of attack used for
+  training. Hence, their actual, real-world
+  performance on unknown (not trained on) attacks
+  remains unclear. In turn, the reported near-perfect
+  detection rates of machine learning-based intrusion
+  detection might create a false sense of security.
+  To assess this situation and clarify the _real_
+  potential of machine learning-based industrial
+  intrusion detection, we develop an evaluation
+  methodology and examine multiple approaches from
+  literature for their performance on unknown attacks
+  (excluded from training). Our results highlight an
+  ineffectiveness in detecting unknown attacks, with
+  detection rates dropping to between 3.2 % and 14.7
+  % for some types of attacks. Moving forward, we
+  derive recommendations for further research on
+  machine learning-based approaches to ensure clarity
+  on their ability to detect unknown attacks.
+license: MIT
